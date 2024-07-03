@@ -18,5 +18,8 @@ public class game{
 	    if(result.equals("Heads")) headcount++;
 	    else tailcount++;
 	}
+        System.out.println("Heads: " + headcount + ", Tails: " + tailcount);
+        if(headcount > tailcount) System.out.println(name + " won!");
+	else System.out.println(name + " lost!");
 }
 }
